@@ -2,9 +2,10 @@
 
 	<PropertyGroup>
 		<HarmonyXVersion>2.13.0</HarmonyXVersion>
-		<HarmonyXVersionFull>2.13.0.0</HarmonyXVersionFull>
-		<HarmonyXVersionSuffix></HarmonyXVersionSuffix>
-		<MonoModRuntimeDetour>25.1.2</MonoModRuntimeDetour>
+		<HarmonyXVersionFull>2.13.0.1</HarmonyXVersionFull>
+		<HarmonyXVersionSuffix>-modtek-1</HarmonyXVersionSuffix>
+		<MonoModRuntimeDetour>25.2.2</MonoModRuntimeDetour>
+		<MonoCecil>0.11.6</MonoCecil>
 	</PropertyGroup>
 
 </Project>

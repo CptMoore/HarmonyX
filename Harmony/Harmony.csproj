@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net35;net452;netstandard2.0</TargetFrameworks>
+        <TargetFrameworks>net452;netstandard2.0</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Product>HarmonyX</Product>
         <Company>BepInEx</Company>
@@ -58,6 +58,7 @@
 
     <ItemGroup>
         <PackageReference Include="MonoMod.RuntimeDetour" Version="$(MonoModRuntimeDetour)" />
+        <PackageReference Include="Mono.Cecil" Version="$(MonoCecil)" />
     </ItemGroup>
 
     <ItemGroup>
